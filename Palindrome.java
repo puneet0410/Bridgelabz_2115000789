@@ -5,6 +5,7 @@ public class Palindrome{
   static boolean isPalindrome(String s){
     int left=0;
     int right=s.length()-1;
+    boolean isPlaindrome=true;
     while(left<right){
       if(s.charAt(left)!=s.charAt(right)){
         return false;
